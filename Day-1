@@ -1,0 +1,12 @@
+✅ Method 1: Create Key Pair via AWS CLI
+- Confirm that the region is set to 'us-east-1' 
+-- aws configure get region
+
+- Create Key Pair according to given specification
+--aws ec2 create-key-pair \
+    --key-name nautilus-kp \
+    --key-type rsa 
+
+- Confirm key pair is created via console
+  <img width="1366" height="615" alt="image" src="https://github.com/user-attachments/assets/kodekloud-100-days-of-aws-day1.png" />
+
